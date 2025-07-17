@@ -10,24 +10,27 @@ classes com suas devidas responsabilidades.
 
 
 class TaskHandler:
-    def conect_api():
-        pass
-
     def create_task():
-        pass
+        print("Criando nova tarefa")
 
     def update_task():
-        pass
+        print("Atualizando tarefa")
 
     def remove_task():
-        pass
+        print("Removendo tarefa")
 
+class APIHandler:
+    def connect_api():
+        print("Conectando ao API")
+
+class  NotificationHandler:
     def send_notification():
-        pass
+        print("Enviando notificação")
 
+class ReportHandler:
     def generate_report():
-        pass
-
+        print("Gerando relatório")
+        
     def send_report():
-        pass
+        print("Enviando relatório")
 
